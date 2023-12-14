@@ -343,7 +343,7 @@ After you have implemented the required code, commit your changes to the local r
    ```
 ![Alt text](image-4.png)
 #### Add and remove car methods
-
+![Alt text](image-5.png)
 When a car enters the car park, we record its plate number and update the displays. When a car exits the car park, we remove its plate number and update the displays. We can implement these behaviours in the `add_car` and `remove_car` methods.
 
 1. In the CarPark class, create an `add_car` method. This method should accept a single parameter, `plate`. This parameter will be a string containing the car's plate number.
