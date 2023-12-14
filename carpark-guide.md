@@ -444,23 +444,23 @@ Add a screenshot of the GitHub repository after pushing the tag, showing the Car
 ```markdown
 ![Added methods to the car park class](images/methods-to-car-park.png)
 ```
-
+![Alt text](image-6.png)
 Answer the following questions:
 > **Review Questions**
 >
 > 1. **Which class is responsible for each of the following pieces of information (and why)?**
 >    - _The number of available bays_  
->      `Answer here...`
+>      CarPark
 >    - _The current temperature_  
->      `Answer here...`
+>      Display
 >    - _The time_  
->      `Answer here...`
+>      CarPark
 >
 > 2. **What is the difference between an attribute and a property?**  
->    `Answer here...`
+>    attributes are more data members like eg(name, age) and properties perform computations like methods and accessed as attributes.
 >
 > 3. **Why do you think we used a dictionary to hold the data we passed the display? List at least one advantage and one disadvantage of this approach.**  
->    `Answer here...`
+>    so we have access to key and value elements.
 
 #### Add a detect vehicle method to the Sensor class
 
