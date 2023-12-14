@@ -14,8 +14,25 @@ class CarPark:
     
     def register(self, component):
         if not isinstance(component, (Sensor, Display)):
-            if isinstance(component, Sensor):
-                self.sensors.append(component)
-            elif isinstance(component, Display):
-                self.sensors.append(component)
+            raise TypeError("Invalid component type!")
+        if isinstance(component, Sensor):
+            self.sensors.append(component)
+        elif isinstance(component, Display):
+            self.sensors.append(component)
                 
+    def add_car(self, plate):
+        self.plates.append(plate)
+        self.update_displays()
+        
+    def remove_car(self, plate):
+        self.plates.remove(plate)
+        self.update_displays()
+        
+    def update_displays(self):
+        for display in self.displays:
+            display.update()
+            print("Updating: " + display)
+        
+
+    
+        

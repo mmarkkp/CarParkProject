@@ -341,7 +341,7 @@ After you have implemented the required code, commit your changes to the local r
    git commit -m "Added a register method to the car park class"
    git tag -a "s3" -m "Added a register method to the car park class"
    ```
-
+![Alt text](image-4.png)
 #### Add and remove car methods
 
 When a car enters the car park, we record its plate number and update the displays. When a car exits the car park, we remove its plate number and update the displays. We can implement these behaviours in the `add_car` and `remove_car` methods.
@@ -370,11 +370,11 @@ You may want to see the number of available bays, the current temperature, and t
 Now consider, between the `CarPark`, `Sensor`, and `Display` classes, which class is responsible for each piece of information? There's no right or wrong answer here. But you should be able to justify your answer.
 
 >Q. Which class is responsible for the number of available bays (and why)?
->
+>CarPark
 >Q. Which class is responsible for the current temperature (and why)?
->
+>Display
 >Q. Which class is responsible for the time (and why)?
->
+>Car
 --------
 
 ##### Detour: implement available bays
