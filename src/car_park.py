@@ -51,7 +51,7 @@ class CarPark:
     def add_car(self, plate):
         self.plates.append(plate)
         #self.update_displays()
-        self._log_car("entered", plate)
+        self._log_car_activity("entered", plate)
         
     def remove_car(self, plate):
         self.plates.remove(plate)

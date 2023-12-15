@@ -20,8 +20,8 @@ class Sensor(ABC):
         self.update_car_park(plate)
         
     def __str__(self):
-        return f'The sensors id is: {self.id} and the status is: {self.is_active}'
-        #return f'{self.id}: Sensor is {"is active" if self.is_active else "if active"}'
+        #return f'The sensors id is: {self.id} and the status is: {self.is_active}'
+        return f'{self.id}: Sensor is {"is active" if self.is_active else "if active"}'
     
 class EntrySensor(Sensor):
     def update_car_park(self, plate):

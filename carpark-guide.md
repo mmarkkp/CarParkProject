@@ -707,7 +707,7 @@ if __name__ == "__main__":
    ```markdown
    ![Unit tests](images/unit-tests.png)
    ```
-
+![Alt text](image-7.png)
 2. Commit your changes to the local repository. Tag the commit with `s6` so your lecturer can find it:
 3. Push the tag to the remote repository:
 
@@ -1070,7 +1070,7 @@ In your final submission, you must include any files you created or modified. Th
    ```markdown
    ![Main.py output](images/main-py.png)
    ```
-
+![Alt text](image-8.png)
 2. Commit your changes to the local repository. Tag the commit with `v1`, so your lecturer can find it. Ensure the commit includes the log and config files (though you would typically ignore them).
 3. Push the tag to the remote repository.
 
